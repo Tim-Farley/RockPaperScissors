@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1 {
+    font-size: 64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.scores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom:40px ;
+    font-size: 46px;
+    font-family: "Erbos Draco", monospace;
+}
+h2 {
+    font-size: 64px;
+    color: purple;
+    background-color: yellow;
+    padding: 32px;
+    border-radius: 16px;
+    border: solid;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.computer-score, .player-score {
+    margin: 32px;
+    border: 8px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
