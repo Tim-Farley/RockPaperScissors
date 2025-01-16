@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "stlye.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Digital+7&display=swap" rel="stylesheet">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <h1>Rock Paper Scissors!</h1>
         <div class="scores">
             <div class="player-score">
-                <h2> 0 </h2>
+                <h2 id="playerScore"> 0 </h2>
                 <p>Play Score </p>
             </div>
             <div class="computer-score">
-                <h2> 0 </h2>
+                <h2 id="computerScore"> 0 </h2>
                 <p>Computer Score</p>
             </div>
         </div>
-        <div class="button-div">
-            <button>Click to Play Round</button>
+        <div class="game-notifications">
+            <p id="endGame"> </p>
+            <p id="gameMessage"> </p>
         </div>
+        <div class="button-div">
+            <button id="rockBtn">Rock</button>
+            <button id="paperBtn">Paper</button>
+            <button id="scissorsBtn">Scissors</button>
+        </div>
+        <footer> Tim's first game (2024/2025).</footer>
     <script src="script.js"></script>
 </body>
 </html>
